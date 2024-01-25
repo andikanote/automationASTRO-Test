@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TEST CASES LOGIN.
+Steps:
+- INPUT NO HANDPHONE
+- CLICK BUTTON LANJUT
+- MASUKAN PIN
+
+Expected Result:
+BERHASIL LOGIN DENGAN ACCOUNT VALID, MASUK HOMEPAGE ASTRO
+
+</description>
+   <name>TC-LOGIN</name>
+   <tag>Login</tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>2</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>75449b41-d25e-4c82-82fa-4bda69160937</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search Product,,,,25-01-2024 21:21:17,25-01-2024 21:21:36,18.955s,PASSED
+,,,,,,,
+Test Cases/Open Application,,,,25-01-2024 21:21:17,25-01-2024 21:21:30,13.455s,PASSED
+"startApplication(""/Users/anpranan/git/automationASTRO-Test/ASTRO.apk"", true)",,,,25-01-2024 21:21:17,25-01-2024 21:21:29,12.354s,PASSED
+Thread.sleep(1000),,,,25-01-2024 21:21:29,25-01-2024 21:21:30,1.016s,PASSED
+,,,,,,,
+Test Cases/On Boarding App,,,,25-01-2024 21:21:30,25-01-2024 21:21:36,5.420s,PASSED
+"tap(findTestObject(""ObjctOnBoardingApp/button.MulaiASTRO""), 1)",,,,25-01-2024 21:21:31,25-01-2024 21:21:32,1.410s,PASSED
+"tap(findTestObject(""ObjctOnBoardingApp/button.AgreeTerms""), 1)",,,,25-01-2024 21:21:32,25-01-2024 21:21:35,2.603s,PASSED
+"tap(findTestObject(""ObjctOnBoardingApp/closeImageView.Phone""), 1)",,,,25-01-2024 21:21:35,25-01-2024 21:21:35,0.747s,PASSED
+"tap(findTestObject(""ObjctOnBoardingApp/TextView.MasukWithoutAcc""), 1)",,,,25-01-2024 21:21:35,25-01-2024 21:21:36,0.581s,PASSED

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search Product" time="18.955" tests="2" failures="0" errors="0">
+   <testsuite name="Search Product" tests="2" failures="0" errors="0" time="18.955" skipped="0" timestamp="25-01-2024T21:21:17" hostname="anpranan - 192.168.1.5" id="Test Suites/Search Product">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anpranan/git/automationASTRO-Test/Reports/20240125_212116/Search Product/20240125_212116"/>
+         <property name="logFiles" value="/Users/anpranan/git/automationASTRO-Test/Reports/20240125_212116/Search Product/20240125_212116/execution0.log, /Users/anpranan/git/automationASTRO-Test/Reports/20240125_212116/Search Product/20240125_212116/appium_error.log, /Users/anpranan/git/automationASTRO-Test/Reports/20240125_212116/Search Product/20240125_212116/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anpranan - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.4.1"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Open Application" time="13.455" classname="Test Cases/Open Application" status="PASSED">
+         <system-out><![CDATA[25-01-2024T21:21:17 - [TEST_CASE][PASSED] - Test Cases/Open Application: Test Cases/Open Application
+
+25-01-2024T21:21:17 - [TEST_STEP][PASSED] - startApplication("/Users/anpranan/git/automationASTRO-Test/ASTRO.apk", true): Started app at: '/Users/anpranan/git/automationASTRO-Test/ASTRO.apk'
+
+25-01-2024T21:21:17 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+25-01-2024T21:21:17 - [MESSAGE][INFO] - PATH: /opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Arm64.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+25-01-2024T21:21:17 - [MESSAGE][INFO] - APPIUM_HOME: /Users/anpranan/.appium
+
+25-01-2024T21:21:17 - [MESSAGE][INFO] - appium outlog: /Users/anpranan/git/automationASTRO-Test/Reports/20240125_212116/Search Product/20240125_212116/appium.log
+
+25-01-2024T21:21:17 - [MESSAGE][INFO] - appium errlog: /Users/anpranan/git/automationASTRO-Test/Reports/20240125_212116/Search Product/20240125_212116/appium_error.log
+
+25-01-2024T21:21:19 - [MESSAGE][INFO] - Appium server started on port 59,371
+
+25-01-2024T21:21:29 - [MESSAGE][PASSED] - Started app at: '/Users/anpranan/git/automationASTRO-Test/ASTRO.apk'
+
+25-01-2024T21:21:29 - [TEST_STEP][PASSED] - Thread.sleep(1000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/On Boarding App" time="5.42" classname="Test Cases/On Boarding App" status="PASSED">
+         <system-out><![CDATA[25-01-2024T21:21:30 - [TEST_CASE][PASSED] - Test Cases/On Boarding App: Test Cases/On Boarding App
+
+25-01-2024T21:21:31 - [TEST_STEP][PASSED] - tap(findTestObject("ObjctOnBoardingApp/button.MulaiASTRO"), 1): Tapped on element 'Object Repository/ObjctOnBoardingApp/button.MulaiASTRO'
+
+25-01-2024T21:21:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjctOnBoardingApp/button.MulaiASTRO'
+
+25-01-2024T21:21:32 - [TEST_STEP][PASSED] - tap(findTestObject("ObjctOnBoardingApp/button.AgreeTerms"), 1): Tapped on element 'Object Repository/ObjctOnBoardingApp/button.AgreeTerms'
+
+25-01-2024T21:21:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjctOnBoardingApp/button.AgreeTerms'
+
+25-01-2024T21:21:35 - [TEST_STEP][PASSED] - tap(findTestObject("ObjctOnBoardingApp/closeImageView.Phone"), 1): Tapped on element 'Object Repository/ObjctOnBoardingApp/closeImageView.Phone'
+
+25-01-2024T21:21:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjctOnBoardingApp/closeImageView.Phone'
+
+25-01-2024T21:21:35 - [TEST_STEP][PASSED] - tap(findTestObject("ObjctOnBoardingApp/TextView.MasukWithoutAcc"), 1): Tapped on element 'Object Repository/ObjctOnBoardingApp/TextView.MasukWithoutAcc'
+
+25-01-2024T21:21:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ObjctOnBoardingApp/TextView.MasukWithoutAcc']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-01-2024T21:21:17 - [TEST_SUITE][PASSED] - Search Product: Test Cases/On Boarding App]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
